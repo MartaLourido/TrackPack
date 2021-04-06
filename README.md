@@ -28,7 +28,7 @@ To Start Server:
 
 To Visit App:
 
-`localhost:3000/ideas`  
+`https://trackpack-project.web.app`  
 
 ## About the project:  
 
