@@ -39,13 +39,13 @@ The project will be further improved by adding the possibility to view it in two
 
 ### Build with
 
-    - `create-react-app` boilerplate to minimize initial setup.
+    -`create-react-app` boilerplate to minimize initial setup.
     - VanillaJS, JSX, and CSS.
     -`react-router`
-    - [Firebase](https://firebase.google.com/)
-    - [Material-ui ](https://material-ui.com/)
-    - [Semantic-ui ](https://react.semantic-ui.com/)
-    - [mapbox](https://www.mapbox.com/)
+    - Firebase
+    - Material-ui
+    - Semantic-ui
+    - mapbox
 
 ### Dev Dependencies
 
