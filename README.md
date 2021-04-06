@@ -31,7 +31,11 @@ To Visit App:
 
 ## About the project:  
 
-This project is done during the Frontend development module of the KTH Software Development Academy.
+This project is done during the Frontend Development Module of the KTH Software Development Academy.
+
+### Improvements
+
+The project will be further improved by adding the possibility to view it in two languages with the i18next library.
 
 ### Build with
 
@@ -54,7 +58,7 @@ This project is done during the Frontend development module of the KTH Software 
 
 ## About me
 
-I am a junior programmer who is studying software development and this is the second project I have done for the frontend development module.
+I am a junior developer who is studying software development and this is the second project I have done for the Frontend Development Module.
 
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/marta-louridob/?locale=en_US/)
 &nbsp;

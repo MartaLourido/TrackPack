@@ -9,6 +9,9 @@ import ProgressExampleIndicating from "./ProgressBar/ProgressExampleIndicating";
 import { Button, Image, Modal, Icon } from "semantic-ui-react";
 import Avatar from "@material-ui/core/Avatar";
 import { makeStyles } from "@material-ui/core/styles";
+import { Progress } from "semantic-ui-react";
+
+//Adding progress bars
 
 //Const styles from material ui
 const useStyles = makeStyles((theme) => ({
@@ -50,6 +53,14 @@ export default function CardDetails({ data }) {
     user_phone,
   } = data;
 
+  const ProgressGreen = () => <Progress percent={45} color="olive" />;
+
+  const ProgressRed = () => <Progress percent={32} color="red" />;
+
+  const ProgressBlue = () => <Progress percent={100} color="blue" />;
+
+  const ProgressPink = () => <Progress percent={75} color="pink" />;
+
   return (
     <div className="Layout">
       <div>
@@ -66,7 +77,12 @@ export default function CardDetails({ data }) {
             <div className="Description">ID: {parcel_id}</div>
             <div className="Title"> {status}</div>
             <div className="Description">
-              <ProgressExampleIndicating />
+              {/* creating ternary operator for ProgressBar*/}
+              <h5>
+                {" "}
+                {status === "delivered" ? <ProgressBlue /> : <ProgressPink />}
+              </h5>
+
               {moment(eta).format("DD/MM/YYYY")}
             </div>
             <div className="AvatarWrap">
