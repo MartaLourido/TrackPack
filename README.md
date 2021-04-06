@@ -2,12 +2,13 @@
 
 ![logo](src/assets/images/logo3.jpg)
 
-An application used to filter packages form API based on user preference, built with React, Hooks, JavaScript, and CSS.
+An application used to filter packages from an API based on user preference, built with React, Hooks, JavaScript, and CSS.
 
 ## Project Information
 
 In this project, users can search for their packages by id in a navigation bar and can also filter them with different filters. 
 They can also see a map with the location of the package for a clearer detail of where to find it and when it will arrive with all the information extracted from the API.
+The project is made to be responsive. 
 
 ## Installation and Setup Instructions
 
